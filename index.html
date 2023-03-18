@@ -5,34 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Side Hustle Internshinp Week 2 Task</h1>
+        <h1>Side Hustle Internship Week 2 Task</h1>
     </header>
     <main>
-        <h1>Fill in your Biodata</h1>
-        <fieldset>
+        <h2>Fill in your Biodata</h1>
+        <fieldset id="myform" style=";">
             <legend>Biodata form</legend>
-            <form id="myform">
+            <form class="form">
                 <label for="fname">First Name</label>
-                <input type="text" name="fname" id="fname" required><br><br>
+                <input type="text" name="fname" id="fname" required><br>
                 <label for="fname">Last Name</label>
-                <input type="text" name="lname" id="lname" required><br><br>
+                <input type="text" name="lname" id="lname" required><br>
 
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required><br><br>
+                <input type="email" name="email" id="email" required><br>
                 <label for="number">Phone Number</label>
                 <input type="tel" name="number" id="number" required><br>
-                <p>Gender</p>
-                    <input type="radio" name="male" id="gender" value="male">
-                    <label for="gender">Male</label><br>
-                    <input type="radio" name="male" id="sex" value="female">
-                    <label for="sex">Female</label><br><br>
+                <p >Gender</p>
+                <div class="radio">
+                    <input class="radiomale" type="radio" name="male" id="gender" value="male" required>
+                    <label class="male" for="gender">Male</label><br>
+                    <input class="radiofemale" type="radio" name="male" id="sex" value="female" required>
+                    <label class="female" for="sex">Female</label><br>
+                </div>    
+               
                 
                 <label for="pword">Password</label>
-                <input type="password" name="pword" id="pword" required><br><br>
-                <input type="button" value="Submit"  onsubmit="myFunction()">
+                <input type="password" name="pword" id="pword" required><br>
+                <button id="btn" type="submit">SUBMIT</button>
             </form>
             <script>
                 function myFunction() {

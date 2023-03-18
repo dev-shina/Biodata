@@ -1,0 +1,89 @@
+* {
+margin: 0;
+}
+
+body {
+    background-color: #dda15e;
+}
+
+h1 {
+    color: #283618;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+}
+
+h2 {
+    color: #283618;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 16px;
+    text-align: center;
+    /* margin: 16px; */
+}
+
+legend {
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    background-color: #fefae0;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 16px;
+    margin: 16px;
+}
+
+#myform {
+    margin: auto;
+    /* text-align: center; */
+    border: none;
+    border-radius: 50px;
+    background-color: #fefae0;
+    height: 85vh;
+    width: 50%
+}
+
+.form label{
+padding: 10px;
+margin: 10px;
+}
+
+.form input {
+    padding: 12px 20px;
+    margin: 15px;
+    width: 90%;
+    display: inline-block;
+    border: 1px solid #dda15e;
+    border-radius: 4px;
+}
+
+p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.radio input {
+    margin-left: 50px;
+    width: 10px;
+}
+
+#btn {
+    padding: 12px 20px;
+    margin: 15px;
+    width: 90%;
+    display: inline-block;
+    margin: 10px 35px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: #dda15e;
+    border: none;
+    border-radius: 4px;
+    color:#283618;
+}
+
+#btn:hover {
+    background-color: #bc6c25;
+}
